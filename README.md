@@ -18,6 +18,15 @@ This project provides practical examples of common statistical hypothesis tests 
   - Levene's test to check homoscedasticity (equal variances)
   - One-tailed independent samples t-test using `scipy.stats`
 
+### Two-tailed t-test Example
+- Dataset: [Breast cancer dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html) from `scikit-learn`
+- Objective: Test whether the mean radius differs between malignant and benign tumors.
+- Techniques:
+  - Boxplots to visualise group distributions
+  - Q-Q plots to check normality
+  - Levene's test to check homoscedasticity (equal variances)
+  - Two-tailed independent samples t-test using `scipy.stats`
+
 ## Planned Additions
 
 - Two-tailed t-test example  
