@@ -1,7 +1,7 @@
 [project]
 name = "statistical-playground"
 version = "0.1.0"
-description = "Add your description here"
+description = "Examples of statistical hypothesis testing in Python, including t-tests and ANOVA."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
