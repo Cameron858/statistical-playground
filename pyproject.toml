@@ -12,4 +12,5 @@ dependencies = [
     "pyprojroot>=0.3.0",
     "scikit-learn>=1.7.0",
     "scipy>=1.15.3",
+    "seaborn>=0.13.2",
 ]
