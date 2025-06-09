@@ -27,13 +27,6 @@ This project provides practical examples of common statistical hypothesis tests 
   - Levene's test to check homoscedasticity (equal variances)
   - Two-tailed independent samples t-test using `scipy.stats`
 
-## Planned Additions
-
-- Two-tailed t-test example  
-- One-way ANOVA example  
-Each will include the same structured workflow for data visualization, assumptions testing, hypothesis formulation, and interpretation.
-
-
 ## Installation
 
 1. Clone the repository:
