@@ -26,3 +26,23 @@
   - Q-Q plots to check normality
   - Levene's test to check homoscedasticity (equal variances)
   - ANOVA test (f_oneway()) using `scipy.stats`
+
+## Chi-squared: Test of Independence Example
+- Dataset: [Heart Failure](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) from `kaggle`
+- Objective: Test if the *biological sex (M/F)* of an individual affects heart disease.
+- Techniques:
+  - Perform chi-squared test of independence
+
+## Chi-squared: Goodness-of-fit Test Example
+- Dataset: [Heart Failure](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) from `kaggle`
+- Objective: Test if the dataset is balanced in terms of *biological sex (M/F)*.
+- Techniques:
+  - Visualise feature split using a pie chart
+  - Perform chi-squared goodness-of-fit test
+
+## Chi-squared: Test of Homogeneity Test Example
+- Dataset: [Heart Failure](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) from `kaggle`
+- Objective: Test if males and females with heart disease experience different types of chest pain at similar rates.
+- Techniques:
+  - Visualise categorical distributions across groups using stackedbar (column) plots
+  - Perform chi-squared test of homogeneity
