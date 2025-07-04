@@ -7,13 +7,11 @@ requires-python = ">=3.13"
 dependencies = [
     "jupyterlab>=4.4.3",
     "jupyterlab-git>=0.51.2",
-    "jupyterlab-lsp>=5.1.1",
     "matplotlib>=3.10.3",
     "numpy>=2.2.6",
     "pandas>=2.3.0",
     "pre-commit>=4.2.0",
     "pyprojroot>=0.3.0",
-    "python-lsp-server[all]>=1.12.2",
     "scikit-learn>=1.7.0",
     "scipy>=1.15.3",
     "seaborn>=0.13.2",
