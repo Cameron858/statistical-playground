@@ -41,7 +41,7 @@ See [here](./docs/contents.md) for project contents.
 
 6. Install the required dependencies using uv:
     ```bash
-    uv pip install -e .
+    uv pip install -r pyproject.toml
     ```
 
 7. When you're done working, deactivate the virtual environment:
